@@ -1,0 +1,63 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+<Profile sr="prof9" ve="2">
+<cdate>1484739918311</cdate>
+<clp>true</clp>
+<edate>1485963935251</edate>
+<id>9</id>
+<mid0>10</mid0>
+<nme>SMS2Mail</nme>
+<Event sr="con0" ve="2">
+<code>7</code>
+<pri>0</pri>
+<Int sr="arg0" val="0"/>
+<Str sr="arg1" ve="3"/>
+<Str sr="arg2" ve="3"/>
+</Event>
+</Profile>
+<Task sr="task10">
+<cdate>1484740196852</cdate>
+<edate>1484756581648</edate>
+<id>10</id>
+<nme>Send Mail</nme>
+<pri>6</pri>
+<Action sr="act0" ve="7">
+<code>298676436</code>
+<Bundle sr="arg0">
+<Vals sr="val">
+<com.pclsoft.taskeremail.extra.SSL>true</com.pclsoft.taskeremail.extra.SSL>
+<com.pclsoft.taskeremail.extra.SSL-type>java.lang.Boolean</com.pclsoft.taskeremail.extra.SSL-type>
+<com.pclsoft.taskeremail.extra.attachmentFile></com.pclsoft.taskeremail.extra.attachmentFile>
+<com.pclsoft.taskeremail.extra.attachmentFile-type>java.lang.String</com.pclsoft.taskeremail.extra.attachmentFile-type>
+<com.pclsoft.taskeremail.extra.emailAddress>mail@mail.com</com.pclsoft.taskeremail.extra.emailAddress>
+<com.pclsoft.taskeremail.extra.emailAddress-type>java.lang.String</com.pclsoft.taskeremail.extra.emailAddress-type>
+<com.pclsoft.taskeremail.extra.emailBody></com.pclsoft.taskeremail.extra.emailBody>
+<com.pclsoft.taskeremail.extra.emailBody-type>java.lang.String</com.pclsoft.taskeremail.extra.emailBody-type>
+<com.pclsoft.taskeremail.extra.emailSubject>%SMSRB</com.pclsoft.taskeremail.extra.emailSubject>
+<com.pclsoft.taskeremail.extra.emailSubject-type>java.lang.String</com.pclsoft.taskeremail.extra.emailSubject-type>
+<com.pclsoft.taskeremail.extra.fromEmailAddress>mail@gmail.com</com.pclsoft.taskeremail.extra.fromEmailAddress>
+<com.pclsoft.taskeremail.extra.fromEmailAddress-type>java.lang.String</com.pclsoft.taskeremail.extra.fromEmailAddress-type>
+<com.pclsoft.taskeremail.extra.smtpHost>smtp.gmail.com</com.pclsoft.taskeremail.extra.smtpHost>
+<com.pclsoft.taskeremail.extra.smtpHost-type>java.lang.String</com.pclsoft.taskeremail.extra.smtpHost-type>
+<com.pclsoft.taskeremail.extra.smtpPass>password</com.pclsoft.taskeremail.extra.smtpPass>
+<com.pclsoft.taskeremail.extra.smtpPass-type>java.lang.String</com.pclsoft.taskeremail.extra.smtpPass-type>
+<com.pclsoft.taskeremail.extra.smtpPort>465</com.pclsoft.taskeremail.extra.smtpPort>
+<com.pclsoft.taskeremail.extra.smtpPort-type>java.lang.String</com.pclsoft.taskeremail.extra.smtpPort-type>
+<com.pclsoft.taskeremail.extra.smtpUser>mail@mail.com</com.pclsoft.taskeremail.extra.smtpUser>
+<com.pclsoft.taskeremail.extra.smtpUser-type>java.lang.String</com.pclsoft.taskeremail.extra.smtpUser-type>
+<com.twofortyfouram.locale.intent.extra.BLURB>mail@mail.com</com.twofortyfouram.locale.intent.extra.BLURB>
+<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+<com.yourcompany.yourcondition.extra.INT_VERSION_CODE>4004</com.yourcompany.yourcondition.extra.INT_VERSION_CODE>
+<com.yourcompany.yourcondition.extra.INT_VERSION_CODE-type>java.lang.Integer</com.yourcompany.yourcondition.extra.INT_VERSION_CODE-type>
+<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pclsoft.taskeremail.extra.emailBody com.pclsoft.taskeremail.extra.emailSubject com.pclsoft.taskeremail.extra.emailAddress com.pclsoft.taskeremail.extra.attachmentFile</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+</Vals>
+</Bundle>
+<Str sr="arg1" ve="3">com.pclsoft.taskeremailsender</Str>
+<Str sr="arg2" ve="3">com.pclsoft.settings.ui.EditActivity</Str>
+<Int sr="arg3" val="0"/>
+</Action>
+</Task>
+</TaskerData>
+
